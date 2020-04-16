@@ -26,7 +26,7 @@ $ docker exec -it -u sf4_mysql bash
 
 You are right now in the mysql container as root user. You can explorer this container as you want ;)
 
-# Symfony 4 here we are
+# Symfony here we are
 
 Now we know how use Docker, so let’s go to the PHP one and not as root, but as user : dev
 
