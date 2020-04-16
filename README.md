@@ -7,8 +7,9 @@ First, clone this repository:
 $ git clone https://github.com/e-zack/docker-symfony.git
 ```
 Let’s start Docker !
-
+```html
 $ docker-compose build
+```
 
 Then, run:
 ```html
@@ -46,13 +47,10 @@ Installation of Symfony4 with composer
 $ composer create-project symfony/skeleton temp-folder ^4.4
 ```
 
-or :
+or : for last version of Symfony
 ```html
 $ composer create-project symfony/skeleton temp-folder 
 ```
-
-for last version of Symfony
-
 
 When it’s done, we will get the project to the root path.
 ```html
@@ -60,7 +58,10 @@ $ cp -Rf /home/wwwroot/sf4/temp-folder/. .
 $ rm -Rf /home/wwwroot/sf4/temp-folder
 ```
 
-Launch in your browser : localhost
+Launch in your browser :
+```html
+http://localhost/
+```
 
 Congratulation !! You can now easily start your new Symfony project. If you look inside the docker-compose.yml file you can see all acces as you need, for example the mysql access :
 ```html
