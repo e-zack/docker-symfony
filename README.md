@@ -3,4 +3,5 @@ This is a complete stack for running Symfony 4 into Docker containers using dock
 
 # Installation
 First, clone this repository:
-https://github.com/e-zack/docker-symfony.git
+
+$ git clone https://github.com/e-zack/docker-symfony.git
