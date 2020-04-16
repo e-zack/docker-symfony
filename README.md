@@ -60,7 +60,7 @@ $ rm -Rf /home/wwwroot/sf4/temp-folder
 
 Launch in your browser :
 ```html
-http://localhost/
+http://localhost
 ```
 
 Congratulation !! You can now easily start your new Symfony project. If you look inside the docker-compose.yml file you can see all acces as you need, for example the mysql access :
