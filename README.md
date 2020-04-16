@@ -11,14 +11,15 @@ Let’s start Docker !
 $ docker-compose build
 
 Then, run:
-
+```html
 $ docker-compose up -d
+```
 
 How Docker work ?
 
 I will not explain how Docker because this is not the subject, but for keep going this post you have to understand two things :
-- Each container is one linux distribution with one component
-- Each container have one root access by default
+* Each container is one linux distribution with one component
+* Each container have one root access by default
 
 So when you execute this :
 
