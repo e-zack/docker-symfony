@@ -24,7 +24,7 @@ I will not explain how Docker because this is not the subject, but for keep goin
 
 So when you execute this :
 ```html
-$ docker exec -it -u sf4_mysql bash
+$ docker exec -it sf4_mysql bash
 ```
 
 You are right now in the mysql container as root user. You can explorer this container as you want ;)
